@@ -1,0 +1,8 @@
+Constrained Instances: 'B2123-1', 'Shelled_7DOF'
+Constraint Name: Coincident133
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'B2123-1', 'B1995-9/B1998-3'
+Constraint Name: Parallel25
+Error Details: Constrained components are not resolved. Resolve components and try again. The constraint has been ignored.
+---------------------------------------------------------------------------------

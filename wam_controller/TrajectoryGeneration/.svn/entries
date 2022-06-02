@@ -1,0 +1,34 @@
+10
+
+dir
+225
+svn+ssh://vorsth@grasp.robotics.cs.rpi.edu/var/svn/controller/wam_controller/WAM7DOF/TrajectoryGeneration
+svn+ssh://vorsth@grasp.robotics.cs.rpi.edu/var/svn/controller
+
+
+
+2012-06-30T15:46:08.401163Z
+218
+hans
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2198cd4c-8d51-4a4e-92cf-a050b6ae56c7
+
+jointSpaceTraj
+dir
+
+invKinSearch
+dir
+

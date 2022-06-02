@@ -1,0 +1,1579 @@
+Model {
+  Name			  "plant_model"
+  Version		  8.5
+  MdlSubVersion		  0
+  SavedCharacterEncoding  "windows-1252"
+  GraphicalInterface {
+    NumRootInports	    3
+    Inport {
+      Name		      "u "
+      BusObject		      ""
+    }
+    Inport {
+      Name		      "x1 "
+      BusObject		      ""
+    }
+    Inport {
+      Name		      "x2"
+      BusObject		      ""
+    }
+    NumRootOutports	    2
+    Outport {
+      Name		      "x_2"
+      BusObject		      ""
+      BusOutputAsStruct	      "off"
+    }
+    Outport {
+      Name		      "x_1"
+      BusObject		      ""
+      BusOutputAsStruct	      "off"
+    }
+    ParameterArgumentNames  ""
+    ComputedModelVersion    "1.6"
+    NumModelReferences	    0
+    NumTestPointedSignals   0
+  }
+  slprops.hdlmdlprops {
+    $PropName		    "HDLParams"
+    $ObjectID		    1
+    Array {
+      Type		      "Cell"
+      Dimension		      2
+      Cell		      "HDLSubsystem"
+      Cell		      "plant_model"
+      PropName		      "mdlProps"
+    }
+  }
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  on
+  DataTypeOverride	  "UseLocalSettings"
+  DataTypeOverrideAppliesTo "AllNumericTypes"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  FPTRunName		  "Run 1"
+  MaxMDLFileLineLength	  120
+  Object {
+    $PropName		    "BdWindowsInfo"
+    $ObjectID		    2
+    $ClassName		    "Simulink.BDWindowsInfo"
+    Object {
+      $PropName		      "WindowsInfo"
+      $ObjectID		      3
+      $ClassName	      "Simulink.WindowInfo"
+      IsActive		      [1]
+      Location		      [-8.0, 0.0, 1370.0, 744.0]
+      Object {
+	$PropName		"ModelBrowserInfo"
+	$ObjectID		4
+	$ClassName		"Simulink.ModelBrowserInfo"
+	Visible			[0]
+	DockPosition		"Left"
+	Width			[50]
+	Height			[50]
+	Filter			[9]
+      }
+      Object {
+	$PropName		"ExplorerBarInfo"
+	$ObjectID		5
+	$ClassName		"Simulink.ExplorerBarInfo"
+	Visible			[1]
+      }
+      Object {
+	$PropName		"EditorsInfo"
+	$ObjectID		6
+	$ClassName		"Simulink.EditorInfo"
+	IsActive		[1]
+	ViewObjType		"SimulinkTopLevel"
+	LoadSaveID		"0"
+	Extents			[1320.0, 569.0]
+	ZoomFactor		[1.0]
+	Offset			[0.0, 0.0]
+      }
+    }
+  }
+  Created		  "Mon Jun 12 17:04:28 2017"
+  Creator		  "User"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "User"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Tue Jun 13 15:08:20 2017"
+  RTWModifiedTimeStamp	  419268280
+  ModelVersionFormat	  "1.%<AutoIncrement:6>"
+  ConfigurationManager	  "none"
+  SampleTimeColors	  off
+  SampleTimeAnnotations	  off
+  LibraryLinkDisplay	  "disabled"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowDesignRanges	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons	  on
+  SortedOrder		  off
+  ExecutionContextIcon	  off
+  ShowLinearizationAnnotations on
+  ShowMarkup		  on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  SimulationMode	  "normal"
+  PauseTimes		  "5"
+  NumberOfSteps		  1
+  SnapshotBufferSize	  10
+  SnapshotInterval	  10
+  NumberOfLastSnapshots	  0
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  Object {
+    $PropName		    "DataLoggingOverride"
+    $ObjectID		    7
+    $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
+    model_		    "plant_model"
+    overrideMode_	    [0.0]
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      "plant_model"
+      PropName		      "logAsSpecifiedByModels_"
+    }
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      []
+      PropName		      "logAsSpecifiedByModelsSSIDs_"
+    }
+  }
+  RecordCoverage	  off
+  CovPath		  "/"
+  CovSaveName		  "covdata"
+  CovMetricSettings	  "dw"
+  CovNameIncrementing	  off
+  CovHtmlReporting	  on
+  CovForceBlockReductionOff on
+  CovEnableCumulative	  on
+  covSaveCumulativeToWorkspaceVar on
+  CovSaveSingleToWorkspaceVar on
+  CovCumulativeVarName	  "covCumulativeData"
+  CovCumulativeReport	  off
+  CovReportOnPause	  on
+  CovModelRefEnable	  "Off"
+  CovExternalEMLEnable	  off
+  CovSFcnEnable		  on
+  CovBoundaryAbsTol	  0.000010
+  CovBoundaryRelTol	  0.010000
+  CovUseTimeInterval	  off
+  CovStartTime		  0
+  CovStopTime		  0
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  Array {
+    Type		    "Handle"
+    Dimension		    1
+    Simulink.ConfigSet {
+      $ObjectID		      8
+      Version		      "1.15.0"
+      Array {
+	Type			"Handle"
+	Dimension		9
+	Simulink.SolverCC {
+	  $ObjectID		  9
+	  Version		  "1.15.0"
+	  StartTime		  "0.0"
+	  StopTime		  "10.0"
+	  AbsTol		  "auto"
+	  FixedStep		  "auto"
+	  InitialStep		  "auto"
+	  MaxNumMinSteps	  "-1"
+	  MaxOrder		  5
+	  ZcThreshold		  "auto"
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "auto"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-3"
+	  SolverMode		  "Auto"
+	  EnableConcurrentExecution off
+	  ConcurrentTasks	  off
+	  Solver		  "ode45"
+	  SolverName		  "ode45"
+	  SolverJacobianMethodControl "auto"
+	  ShapePreserveControl	  "DisableAll"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  ZeroCrossAlgorithm	  "Nonadaptive"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  InsertRTBMode		  "Whenever possible"
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  10
+	  Version		  "1.15.0"
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  off
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveCompleteFinalSimState off
+	  SaveFormat		  "Array"
+	  SignalLoggingSaveFormat "Dataset"
+	  SaveOutput		  on
+	  SaveState		  on
+	  SignalLogging		  on
+	  DSMLogging		  on
+	  InspectSignalLogs	  off
+	  VisualizeSimOutput	  on
+	  SaveTime		  on
+	  ReturnWorkspaceOutputs  off
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  DSMLoggingName	  "dsmout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
+	  Refine		  "1"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  11
+	  Version		  "1.15.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    8
+	    Cell		    "BooleansAsBitfields"
+	    Cell		    "PassReuseOutputArgsAs"
+	    Cell		    "PassReuseOutputArgsThreshold"
+	    Cell		    "ZeroExternalMemoryAtStartup"
+	    Cell		    "ZeroInternalMemoryAtStartup"
+	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "NoFixptDivByZeroProtection"
+	    Cell		    "UseSpecifiedMinMax"
+	    PropName		    "DisabledProps"
+	  }
+	  BlockReduction	  off
+	  BooleanDataType	  on
+	  ConditionallyExecuteInputs on
+	  InlineParams		  on
+	  UseDivisionForNetSlopeComputation "off"
+	  UseFloatMulNetSlope	  off
+	  DefaultUnderspecifiedDataType	"double"
+	  UseSpecifiedMinMax	  off
+	  InlineInvariantSignals  off
+	  OptimizeBlockIOStorage  on
+	  BufferReuse		  off
+	  EnhancedBackFolding	  off
+	  CachingGlobalReferences off
+	  GlobalBufferReuse	  on
+	  StrengthReduction	  off
+	  ExpressionFolding	  on
+	  BooleansAsBitfields	  off
+	  BitfieldContainerType	  "uint_T"
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Structure reference"
+	  PassReuseOutputArgsThreshold 12
+	  ExpressionDepthLimit	  128
+	  LocalBlockOutputs	  on
+	  RollThreshold		  5
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  ActiveStateOutputEnumStorageType "Native Integer"
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  off
+	  NoFixptDivByZeroProtection off
+	  EfficientFloat2IntCast  off
+	  EfficientMapNaN2IntZero on
+	  OptimizeModelRefInitCode off
+	  LifeSpan		  "inf"
+	  MaxStackSize		  "Inherit from target"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "off"
+	  AccelVerboseBuild	  off
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  12
+	  Version		  "1.15.0"
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "warning"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"warning"
+	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Simplified"
+	  MergeDetectMultiDrivingBlocksExec "error"
+	  CheckExecutionContextPreStartOutputMsg off
+	  CheckExecutionContextRuntimeOutputMsg	off
+	  SignalResolutionControl "UseLocalSettings"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "error"
+	  MaskedZcDiagnostic	  "warning"
+	  IgnoredZcDiagnostic	  "warning"
+	  SolverPrmCheckMsg	  "none"
+	  InheritedTsInSrcMsg	  "warning"
+	  DiscreteInheritContinuousMsg "warning"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "none"
+	  TasksWithSamePriorityMsg "warning"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "warning"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  InvalidFcnCallConnMsg	  "error"
+	  FcnCallInpInsideContextMsg "EnableAllAsError"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  SFcnCompatibilityMsg	  "none"
+	  FrameProcessingCompatibilityMsg "error"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "none"
+	  SimStateInterfaceChecksumMismatchMsg "warning"
+	  SimStateOlderReleaseMsg "error"
+	  InitInArrayFormatMsg	  "warning"
+	  StrictBusMsg		  "ErrorLevel1"
+	  BusNameAdapt		  "WarnAndRepair"
+	  NonBusSignalsTreatedAsBus "none"
+	  BlockIODiagnostic	  "none"
+	  SFUnusedDataAndEventsDiag "warning"
+	  SFUnexpectedBacktrackingDiag "warning"
+	  SFInvalidInputDataAccessInChartInitDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "warning"
+	  SFTransitionOutsideNaturalParentDiag "warning"
+	  SFUnconditionalTransitionShadowingDiag "warning"
+	  SFUndirectedBroadcastEventsDiag "warning"
+	  SFTransitionActionBeforeConditionDiag	"warning"
+	  SFOutputUsedAsStateInMooreChartDiag "error"
+	  IntegerSaturationMsg	  "warning"
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  13
+	  Version		  "1.15.0"
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  32
+	  ProdBitPerLong	  32
+	  ProdBitPerLongLong	  64
+	  ProdBitPerFloat	  32
+	  ProdBitPerDouble	  64
+	  ProdBitPerPointer	  32
+	  ProdLargestAtomicInteger "Char"
+	  ProdLargestAtomicFloat  "None"
+	  ProdIntDivRoundTo	  "Undefined"
+	  ProdEndianess		  "Unspecified"
+	  ProdWordSize		  32
+	  ProdShiftRightIntArith  on
+	  ProdLongLongMode	  off
+	  ProdHWDeviceType	  "32-bit Generic"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetBitPerLongLong	  64
+	  TargetBitPerFloat	  32
+	  TargetBitPerDouble	  64
+	  TargetBitPerPointer	  32
+	  TargetLargestAtomicInteger "Char"
+	  TargetLargestAtomicFloat "None"
+	  TargetShiftRightIntArith on
+	  TargetLongLongMode	  off
+	  TargetIntDivRoundTo	  "Undefined"
+	  TargetEndianess	  "Unspecified"
+	  TargetWordSize	  32
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "Specified"
+	  TargetUnknown		  off
+	  ProdEqTarget		  on
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  14
+	  Version		  "1.15.0"
+	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  CheckModelReferenceTargetMessage "error"
+	  EnableParallelModelReferenceBuilds off
+	  ParallelModelReferenceErrorOnInvalidPool on
+	  ParallelModelReferenceMATLABWorkerInit "None"
+	  ModelReferenceNumInstancesAllowed "Multi"
+	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	  PropagateSignalLabelsOutOfModel off
+	  SupportModelReferenceSimTargetCustomCode off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  15
+	  Version		  "1.15.0"
+	  SFSimOverflowDetection  on
+	  SFSimEcho		  on
+	  SimCtrlC		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  off
+	  SimParseCustomCode	  on
+	  SimBuildMode		  "sf_incremental_build"
+	  SimGenImportedTypeDefs  off
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  16
+	  Version		  "1.15.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    16
+	    Cell		    "IncludeHyperlinkInReport"
+	    Cell		    "GenerateTraceInfo"
+	    Cell		    "GenerateTraceReport"
+	    Cell		    "GenerateTraceReportSl"
+	    Cell		    "GenerateTraceReportSf"
+	    Cell		    "GenerateTraceReportEml"
+	    Cell		    "PortableWordSizes"
+	    Cell		    "GenerateWebview"
+	    Cell		    "GenerateCodeMetricsReport"
+	    Cell		    "GenerateCodeReplacementReport"
+	    Cell		    "GenerateMissedCodeReplacementReport"
+	    Cell		    "GenerateErtSFunction"
+	    Cell		    "CreateSILPILBlock"
+	    Cell		    "CodeExecutionProfiling"
+	    Cell		    "CodeProfilingSaveOptions"
+	    Cell		    "CodeProfilingInstrumentation"
+	    PropName		    "DisabledProps"
+	  }
+	  SystemTargetFile	  "grt.tlc"
+	  TLCOptions		  ""
+	  GenCodeOnly		  off
+	  MakeCommand		  "make_rtw"
+	  GenerateMakefile	  on
+	  PackageGeneratedCodeAndArtifacts off
+	  PackageName		  ""
+	  TemplateMakefile	  "grt_default_tmf"
+	  PostCodeGenCommand	  ""
+	  Description		  ""
+	  GenerateReport	  off
+	  SaveLog		  off
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  RTWUseLocalCustomCode	  off
+	  RTWUseSimCustomCode	  off
+	  CustomSourceCode	  ""
+	  CustomHeaderCode	  ""
+	  CustomInclude		  ""
+	  CustomSource		  ""
+	  CustomLibrary		  ""
+	  CustomInitializer	  ""
+	  CustomTerminator	  ""
+	  Toolchain		  "Automatically locate an installed toolchain"
+	  BuildConfiguration	  "Faster Builds"
+	  IncludeHyperlinkInReport off
+	  LaunchReport		  off
+	  PortableWordSizes	  off
+	  CreateSILPILBlock	  "None"
+	  CodeExecutionProfiling  off
+	  CodeExecutionProfileVariable "executionProfile"
+	  CodeProfilingSaveOptions "SummaryOnly"
+	  CodeProfilingInstrumentation off
+	  SILDebugging		  off
+	  TargetLang		  "C"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  GenerateTraceInfo	  off
+	  GenerateTraceReport	  off
+	  GenerateTraceReportSl	  off
+	  GenerateTraceReportSf	  off
+	  GenerateTraceReportEml  off
+	  GenerateWebview	  off
+	  GenerateCodeMetricsReport off
+	  GenerateCodeReplacementReport	off
+	  GenerateMissedCodeReplacementReport off
+	  RTWCompilerOptimization "off"
+	  RTWCustomCompilerOptimizations ""
+	  CheckMdlBeforeBuild	  "Off"
+	  SharedConstantsCachingThreshold 1024
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      17
+	      Version		      "1.15.0"
+	      Array {
+		Type			"Cell"
+		Dimension		24
+		Cell			"IgnoreCustomStorageClasses"
+		Cell			"ParameterTuningSideEffectCode"
+		Cell			"IgnoreTestpoints"
+		Cell			"InsertBlockDesc"
+		Cell			"InsertPolySpaceComments"
+		Cell			"SFDataObjDesc"
+		Cell			"MATLABFcnDesc"
+		Cell			"SimulinkDataObjDesc"
+		Cell			"DefineNamingRule"
+		Cell			"SignalNamingRule"
+		Cell			"ParamNamingRule"
+		Cell			"InternalIdentifier"
+		Cell			"InlinedPrmAccess"
+		Cell			"CustomSymbolStr"
+		Cell			"CustomSymbolStrGlobalVar"
+		Cell			"CustomSymbolStrType"
+		Cell			"CustomSymbolStrField"
+		Cell			"CustomSymbolStrFcn"
+		Cell			"CustomSymbolStrFcnArg"
+		Cell			"CustomSymbolStrBlkIO"
+		Cell			"CustomSymbolStrTmpVar"
+		Cell			"CustomSymbolStrMacro"
+		Cell			"CustomSymbolStrUtil"
+		Cell			"ReqsInCode"
+		PropName		"DisabledProps"
+	      }
+	      ForceParamTrailComments off
+	      GenerateComments	      on
+	      CommentStyle	      "Auto"
+	      IgnoreCustomStorageClasses on
+	      IgnoreTestpoints	      off
+	      IncHierarchyInIds	      off
+	      MaxIdLength	      31
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement off
+	      OperatorAnnotations     off
+	      IncAutoGenComments      off
+	      SimulinkDataObjDesc     off
+	      SFDataObjDesc	      off
+	      MATLABFcnDesc	      off
+	      IncDataTypeInIds	      off
+	      MangleLength	      1
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M_T"
+	      CustomSymbolStrField    "$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      CustomSymbolStrUtil     "$N$C"
+	      DefineNamingRule	      "None"
+	      ParamNamingRule	      "None"
+	      SignalNamingRule	      "None"
+	      InsertBlockDesc	      off
+	      InsertPolySpaceComments off
+	      SimulinkBlockComments   on
+	      MATLABSourceComments    off
+	      EnableCustomComments    off
+	      InternalIdentifier      "Shortened"
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	    }
+	    Simulink.GRTTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      18
+	      Version		      "1.15.0"
+	      Array {
+		Type			"Cell"
+		Dimension		13
+		Cell			"GeneratePreprocessorConditionals"
+		Cell			"IncludeMdlTerminateFcn"
+		Cell			"SuppressErrorStatus"
+		Cell			"ERTCustomFileBanners"
+		Cell			"GenerateSampleERTMain"
+		Cell			"GenerateTestInterfaces"
+		Cell			"ModelStepFunctionPrototypeControlCompliant"
+		Cell			"GenerateAllocFcn"
+		Cell			"PurelyIntegerCode"
+		Cell			"SupportComplex"
+		Cell			"SupportAbsoluteTime"
+		Cell			"SupportContinuousTime"
+		Cell			"SupportNonInlinedSFcns"
+		PropName		"DisabledProps"
+	      }
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      GenFloatMathFcnCalls    "NOT IN USE"
+	      TargetLangStandard      "C89/C90 (ANSI)"
+	      CodeReplacementLibrary  "None"
+	      UtilityFuncGeneration   "Auto"
+	      ERTMultiwordTypeDef     "System defined"
+	      ERTMultiwordLength      256
+	      MultiwordLength	      2048
+	      GenerateFullHeader      on
+	      InferredTypesCompatibility off
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      ModelReferenceCompliant on
+	      ParMdlRefBuildCompliant on
+	      CompOptLevelCompliant   on
+	      ConcurrentExecutionCompliant on
+	      IncludeMdlTerminateFcn  on
+	      GeneratePreprocessorConditionals "Disable all"
+	      CombineOutputUpdateFcns on
+	      CombineSignalStateStructs	off
+	      SuppressErrorStatus     off
+	      ERTFirstTimeCompliant   off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    off
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      on
+	      MultiInstanceERTCode    off
+	      CodeInterfacePackaging  "Nonreusable function"
+	      SupportNonFinite	      on
+	      SupportComplex	      on
+	      PurelyIntegerCode	      off
+	      SupportContinuousTime   on
+	      SupportNonInlinedSFcns  on
+	      SupportVariableSizeSignals off
+	      ParenthesesLevel	      "Nominal"
+	      CastingMode	      "Nominal"
+	      MATLABClassNameForMDSCustomization "Simulink.SoftwareTarget.GRTCustomization"
+	      ModelStepFunctionPrototypeControlCompliant off
+	      CPPClassGenCompliant    on
+	      AutosarCompliant	      off
+	      GRTInterface	      off
+	      GenerateAllocFcn	      off
+	      GenerateSharedConstants on
+	      UseMalloc		      off
+	      ExtMode		      off
+	      ExtModeStaticAlloc      off
+	      ExtModeTesting	      off
+	      ExtModeStaticAllocSize  1000000
+	      ExtModeTransport	      0
+	      ExtModeMexFile	      "ext_comm"
+	      ExtModeIntrfLevel	      "Level1"
+	      RTWCAPISignals	      off
+	      RTWCAPIParams	      off
+	      RTWCAPIStates	      off
+	      RTWCAPIRootIO	      off
+	      GenerateASAP2	      off
+	      MultiInstanceErrorCode  "Error"
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	hdlcoderui.hdlcc {
+	  $ObjectID		  19
+	  Version		  "1.15.0"
+	  Description		  "HDL Coder custom configuration component"
+	  Name			  "HDL Coder"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    " "
+	    PropName		    "HDLConfigFile"
+	  }
+	  HDLCActiveTab		  "0"
+	}
+	PropName		"Components"
+      }
+      Name		      "Configuration"
+      CurrentDlgPage	      "Data Import//Export"
+      ConfigPrmDlgPosition     [ 220, 77, 1146, 628 ] 
+    }
+    PropName		    "ConfigurationSets"
+  }
+  Simulink.ConfigSet {
+    $PropName		    "ActiveConfigurationSet"
+    $ObjectID		    8
+  }
+  Object {
+    $PropName		    "DataTransfer"
+    $ObjectID		    20
+    $ClassName		    "Simulink.GlobalDataTransfer"
+    DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
+    DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
+    DefaultTransitionBetweenContTasks "Ensure deterministic transfer (minimum delay)"
+    DefaultExtrapolationMethodBetweenContTasks "None"
+    AutoInsertRateTranBlk   [0]
+  }
+  ExplicitPartitioning	  off
+  BlockDefaults {
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+    BlockRotation	    0
+    BlockMirror		    off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    UseDisplayTextAsClickCallback off
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  MaskDefaults {
+    SelfModifiable	    "off"
+    IconFrame		    "on"
+    IconOpaque		    "on"
+    RunInitForIconRedraw    "off"
+    IconRotate		    "none"
+    PortRotate		    "default"
+    IconUnits		    "autoscale"
+  }
+  MaskParameterDefaults {
+    Evaluate		    "on"
+    Tunable		    "on"
+    NeverSave		    "off"
+    Internal		    "off"
+    ReadOnly		    "off"
+    Enabled		    "on"
+    Visible		    "on"
+    ToolTip		    "on"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Demux
+      Outputs		      "4"
+      DisplayOption	      "none"
+      BusSelectionMode	      off
+    }
+    Block {
+      BlockType		      Inport
+      Port		      "1"
+      OutputFunctionCall      off
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      LatchByDelayingOutsideSignal off
+      LatchInputForFeedbackSignals off
+      Interpolate	      on
+    }
+    Block {
+      BlockType		      Outport
+      Port		      "1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      SourceOfInitialOutputValue "Dialog"
+      OutputWhenDisabled      "held"
+      InitialOutput	      "[]"
+    }
+    Block {
+      BlockType		      S-Function
+      FunctionName	      "system"
+      SFunctionModules	      "''"
+      PortCounts	      "[]"
+      SFunctionDeploymentMode off
+      EnableBusSupport	      off
+    }
+    Block {
+      BlockType		      SubSystem
+      ShowPortLabels	      "FromPortIcon"
+      Permissions	      "ReadWrite"
+      PermitHierarchicalResolution "All"
+      TreatAsAtomicUnit	      off
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      CheckFcnCallInpInsideContextMsg off
+      SystemSampleTime	      "-1"
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      FunctionInterfaceSpec   "void_void"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      SimViewingDevice	      off
+      DataTypeOverride	      "UseLocalSettings"
+      DataTypeOverrideAppliesTo	"AllNumericTypes"
+      MinMaxOverflowLogging   "UseLocalSettings"
+      Opaque		      off
+      MaskHideContents	      off
+      SFBlockType	      "NONE"
+      Variant		      off
+      GeneratePreprocessorConditionals off
+      ContentPreviewEnabled   off
+      IsWebBlock	      off
+    }
+    Block {
+      BlockType		      Terminator
+    }
+  }
+  System {
+    Name		    "plant_model"
+    Location		    [-8, 0, 1362, 744]
+    Open		    on
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "usletter"
+    PaperUnits		    "inches"
+    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "100"
+    ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    "9"
+    Block {
+      BlockType		      Inport
+      Name		      "u\n"
+      SID		      "4"
+      Position		      [520, 153, 550, 167]
+      ZOrder		      4
+      IconDisplay	      "Port number"
+      PortDimensions	      "14"
+    }
+    Block {
+      BlockType		      Inport
+      Name		      "x1\n"
+      SID		      "5"
+      Position		      [520, 223, 550, 237]
+      ZOrder		      5
+      Port		      "2"
+      IconDisplay	      "Port number"
+      PortDimensions	      "7"
+    }
+    Block {
+      BlockType		      Inport
+      Name		      "x2"
+      SID		      "6"
+      Position		      [520, 288, 550, 302]
+      ZOrder		      6
+      Port		      "3"
+      IconDisplay	      "Port number"
+      PortDimensions	      "7"
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "MATLAB Function"
+      SID		      "3"
+      Ports		      [3, 2]
+      Position		      [605, 132, 730, 328]
+      ZOrder		      3
+      LibraryVersion	      "1.32"
+      ErrorFcn		      "Stateflow.Translate.translate"
+      PermitHierarchicalResolution "ExplicitOnly"
+      TreatAsAtomicUnit	      on
+      RequestExecContextInheritance off
+      SFBlockType	      "MATLAB Function"
+      System {
+	Name			"MATLAB Function"
+	Location		[223, 338, 826, 833]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	SIDHighWatermark	"23"
+	Block {
+	  BlockType		  Inport
+	  Name			  "u"
+	  SID			  "3::1"
+	  Position		  [20, 101, 40, 119]
+	  ZOrder		  -1
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "x1"
+	  SID			  "3::22"
+	  Position		  [20, 136, 40, 154]
+	  ZOrder		  13
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "x2"
+	  SID			  "3::23"
+	  Position		  [20, 171, 40, 189]
+	  ZOrder		  14
+	  Port			  "3"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Demux
+	  Name			  " Demux "
+	  SID			  "3::17"
+	  Ports			  [1, 1]
+	  Position		  [270, 230, 320, 270]
+	  ZOrder		  8
+	  Outputs		  "1"
+	}
+	Block {
+	  BlockType		  S-Function
+	  Name			  " SFunction "
+	  SID			  "3::16"
+	  Tag			  "Stateflow S-Function plant_model 2"
+	  Ports			  [3, 3]
+	  Position		  [180, 100, 230, 180]
+	  ZOrder		  7
+	  FunctionName		  "sf_sfun"
+	  PortCounts		  "[3 3]"
+	  EnableBusSupport	  on
+	  Port {
+	    PortNumber		    2
+	    Name		    "x_2"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	  Port {
+	    PortNumber		    3
+	    Name		    "x_1"
+	    RTWStorageClass	    "Auto"
+	    DataLoggingNameMode	    "SignalName"
+	  }
+	}
+	Block {
+	  BlockType		  Terminator
+	  Name			  " Terminator "
+	  SID			  "3::18"
+	  Position		  [460, 241, 480, 259]
+	  ZOrder		  9
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "x_2"
+	  SID			  "3::5"
+	  Position		  [460, 101, 480, 119]
+	  ZOrder		  -5
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "x_1"
+	  SID			  "3::21"
+	  Position		  [460, 136, 480, 154]
+	  ZOrder		  12
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  ZOrder		  44
+	  SrcBlock		  "u"
+	  SrcPort		  1
+	  DstBlock		  " SFunction "
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  45
+	  SrcBlock		  "x1"
+	  SrcPort		  1
+	  DstBlock		  " SFunction "
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  46
+	  SrcBlock		  "x2"
+	  SrcPort		  1
+	  DstBlock		  " SFunction "
+	  DstPort		  3
+	}
+	Line {
+	  Name			  "x_2"
+	  ZOrder		  47
+	  Labels		  [0, 0]
+	  SrcBlock		  " SFunction "
+	  SrcPort		  2
+	  DstBlock		  "x_2"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "x_1"
+	  ZOrder		  48
+	  Labels		  [0, 0]
+	  SrcBlock		  " SFunction "
+	  SrcPort		  3
+	  DstBlock		  "x_1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  49
+	  SrcBlock		  " Demux "
+	  SrcPort		  1
+	  DstBlock		  " Terminator "
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  50
+	  SrcBlock		  " SFunction "
+	  SrcPort		  1
+	  DstBlock		  " Demux "
+	  DstPort		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Timed-Based\nLinearization"
+      SID		      "9"
+      Ports		      []
+      Position		      [332, 139, 370, 169]
+      ZOrder		      9
+      LibraryVersion	      "1.356"
+      SourceBlock	      "simulink/Model-Wide\nUtilities/Timed-Based\nLinearization"
+      SourceType	      "Timed Linearization"
+      ContentPreviewEnabled   off
+      LinearizationTime	      "1"
+      SampleTime	      "0.02"
+    }
+    Block {
+      BlockType		      Outport
+      Name		      "x_2"
+      SID		      "7"
+      Position		      [810, 173, 840, 187]
+      ZOrder		      7
+      IconDisplay	      "Port number"
+      PortDimensions	      "7"
+    }
+    Block {
+      BlockType		      Outport
+      Name		      "x_1"
+      SID		      "8"
+      Position		      [810, 268, 840, 282]
+      ZOrder		      8
+      Port		      "2"
+      IconDisplay	      "Port number"
+      PortDimensions	      "7"
+    }
+    Line {
+      ZOrder		      1
+      SrcBlock		      "u\n"
+      SrcPort		      1
+      Points		      [35, 0]
+      DstBlock		      "MATLAB Function"
+      DstPort		      1
+    }
+    Line {
+      FontName		      "Helvetica"
+      FontSize		      9
+      FontWeight	      "normal"
+      FontAngle		      "normal"
+      ZOrder		      9
+      SrcBlock		      "x2"
+      SrcPort		      1
+      DstBlock		      "MATLAB Function"
+      DstPort		      3
+    }
+    Line {
+      ZOrder		      4
+      SrcBlock		      "MATLAB Function"
+      SrcPort		      1
+      Points		      [60, 0]
+      DstBlock		      "x_2"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      5
+      SrcBlock		      "MATLAB Function"
+      SrcPort		      2
+      Points		      [60, 0]
+      DstBlock		      "x_1"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      10
+      SrcBlock		      "x1\n"
+      SrcPort		      1
+      DstBlock		      "MATLAB Function"
+      DstPort		      2
+    }
+  }
+}
+#Finite State Machines
+#
+#   Stateflow 80000005
+#
+#
+Stateflow {
+  machine {
+    id			    1
+    name		    "plant_model"
+    created		    "12-Jun-2017 17:06:48"
+    isLibrary		    0
+    firstTarget		    12
+    sfVersion		    80000005
+  }
+  chart {
+    id			    2
+    name		    "MATLAB Function"
+    windowPosition	    [422 539.941 189 413]
+    viewLimits		    [0 156.75 0 153.75]
+    screen		    [1 1 3600 1200 1.180555555555556]
+    treeNode		    [0 3 0 0]
+    firstTransition	    10
+    firstJunction	    9
+    viewObj		    2
+    visible		    1
+    machine		    1
+    subviewS {
+    }
+    ssIdHighWaterMark	    10
+    decomposition	    CLUSTER_CHART
+    type		    EML_CHART
+    firstData		    4
+    chartFileNumber	    2
+    disableImplicitCasting  1
+    eml {
+      name		      "plant_model"
+    }
+  }
+  state {
+    id			    3
+    labelString		    "eML_blk_kernel()"
+    position		    [18 64.5 118 66]
+    fontSize		    12
+    chart		    2
+    treeNode		    [2 0 0 0]
+    superState		    SUBCHART
+    subviewer		    2
+    ssIdNumber		    1
+    type		    FUNC_STATE
+    decomposition	    CLUSTER_STATE
+    eml {
+      isEML		      1
+      script		      "function [x_2,x_1] = plant_model(u,x1,x2)\n%#codegen\nTs=1/500;\n\nF1 =  diag([0.20519,0.094428,0"
+      ".094428,0.03,0.001,0.001,0.0003]);\n\n     \n    \n    %not to be used in real time\n    U=u;\n    \n    x_1 =  "
+      "x2*Ts + x1;\n    x_2 = (-inv(D(x1)+F1)*(G(x1) + bq(x2)) + inv(D(x1)+F1)*U)*Ts + x2;\n     \n    \nend \nfunction"
+      " G=G(q)\n\n\nDH_a = [0 0 0.045 -0.045 0 0 0];\n    DH_d = [0 0 .55 0 0.45 0 0.061];\n    DH_alpha = [-pi/2 pi/2 "
+      "-pi/2 pi/2 -pi/2 pi/2 0];\n\n    m = [10.7676 3.87 1.8022 2.4 0.1237 0.4979886 0.07548270];\n    \n     \n    co"
+      "m= zeros(3,7);\n    \n   com(:,1) = [-0.00443422;0.12189039;-0.00066489];\n    com(:,2) = [-0.00236983;0.0310561"
+      "4;0.01542114 ];\n    com(:,3) = [-0.03825858;0.20750770;0.00003309];\n    com(:,4) = [0.00498512;-0.00022942;0.1"
+      "3271662 ];\n    com(:,5) = [0.00008921;0.00511217;0.00435824];\n    com(:,6) = [-0.00012262;-0.01703194;0.024683"
+      "36];\n    com(:,7) = [-0.00007974;0.00016313;-0.00323552 ];\n     \n     % hand_mass =1.385;\n      %  DH_d(7) ="
+      "DH_d(7)+ .0953; % Adding the distance to the hand frame for the Schunk Gripper\n       % com(:,7) =(com(:,7).*ha"
+      "nd_mass+com(:,7).*m(7))/(hand_mass+m(7)); % Finding the combined center of mass\n        %m(7) =m(7)+hand_mass; "
+      " \n        \n    I=zeros(3,3,7);\n    T=zeros(4,4,7);\n     I(:,:,1) = [0.29486350,-0.00795023,-0.00009311;\n   "
+      "              -0.00795023,0.11350017,-0.00018711;\n                -0.00009311,-0.00018711,0.25065343];\n    I(:"
+      ",:,2) =[0.02606840,-0.00001346,-0.00011701;\n               -0.00001346,0.01472202,0.00003659;\n              -0"
+      ".00011701,0.00003659,0.01934814];\n    I(:,:,3) = [0.13671601,-0.01680434, 0.00000510;\n               -0.016804"
+      "34,0.00588354,-0.00000530;\n                0.00000510,-0.00000530,0.13951371];\n    I(:,:,4) = [ 0.05719268,0.0"
+      "0001467,0.00008193;\n                 0.00001467,0.05716470,-0.00009417;\n                 0.00008193,-0.0000941"
+      "7,0.00300441] ;\n    I(:,:,5) =[0.00005587,0.00000026,.00000000;\n               0.00000026,0.00007817,-0.000000"
+      "83;\n               0.00000000,-0.00000083,0.00006594];\n    I(:,:,6) = [0.00093106,0.00000148,-0.00000201;\n   "
+      "             0.00000148, 0.00049833,-0.00022162;\n               -0.00000201,-0.00022162,0.00057483];\n    I(:,:"
+      ",7) = [0.003167342, 0,0;       % Approximate Inertia Tensor for Schunk Gripper\n                0,0.001128942,0;"
+      "\n                 0,0,0.00258007;];  \n            \n             \nfor j=1:7,\n        a = DH_a(j);\n        d"
+      " = DH_d(j);\n        alpha = DH_alpha(j);\n        T(:,:,j) = getTransformDH(a, d, alpha, q(j));\nend \n\n\ncoms"
+      "tar=zeros(4,7);\n\n   \n    comstar(:,1) = [com(:,1);1];\n    comstar(:,2) = [com(:,2);1];\n    comstar(:,3) = ["
+      "com(:,3);1];\n    comstar(:,4) = [com(:,4);1];\n    comstar(:,5) = [com(:,5);1];\n    comstar(:,6) = [com(:,6);1"
+      "];\n    comstar(:,7) = [com(:,7);1];\n    \n    Q=zeros(4,4);\n    \n    Q=[0,-1,0,0;\n     1,0,0,0;\n     0,0,0"
+      ",0;\n     0,0,0,0];\n   \n gravity=[0,0,-9.81,0];\n G=zeros(7,1);\n   G(1)= -m(1)*gravity*Q*T(:,:,1)*comstar(:,1"
+      ")-m(2)*gravity*Q*T(:,:,1)*T(:,:,2)*comstar(:,2)-m(3)*gravity*Q*T(:,:,1)*T(:,:,2)*T(:,:,3)*comstar(:,3)-m(4)*grav"
+      "ity*Q*T(:,:,1)*T(:,:,2)*T(:,:,3)*T(:,:,4)*comstar(:,4)-m(5)*gravity*Q*T(:,:,1)*T(:,:,2)*T(:,:,3)*T(:,:,4)*T(:,:,"
+      "5)*comstar(:,5)-m(6)*gravity*Q*T(:,:,1)*T(:,:,2)*T(:,:,3)*T(:,:,4)*T(:,:,5)*T(:,:,6)*comstar(:,6)-m(7)*gravity*Q"
+      "*T(:,:,1)*T(:,:,2)*T(:,:,3)*T(:,:,4)*T(:,:,5)*T(:,:,6)*T(:,:,7)*comstar(:,7);   \n   G(2)= -m(2)*gravity*T(:,:,1"
+      ")*Q*T(:,:,2)*comstar(:,2)-m(3)*gravity*T(:,:,1)*Q*T(:,:,2)*T(:,:,3)*comstar(:,3)-m(4)*gravity*T(:,:,1)*Q*T(:,:,2"
+      ")*T(:,:,3)*T(:,:,4)*comstar(:,4)-m(5)*gravity*T(:,:,1)*Q*T(:,:,2)*T(:,:,3)*T(:,:,4)*T(:,:,5)*comstar(:,5)-m(6)*g"
+      "ravity*T(:,:,1)*Q*T(:,:,2)*T(:,:,3)*T(:,:,4)*T(:,:,5)*T(:,:,6)*comstar(:,6)-m(7)*gravity*T(:,:,1)*Q*T(:,:,2)*T(:"
+      ",:,3)*T(:,:,4)*T(:,:,5)*T(:,:,6)*T(:,:,7)*comstar(:,7);\n   G(3)= -m(3)*gravity*T(:,:,1)*T(:,:,2)*Q*T(:,:,3)*com"
+      "star(:,3)-m(4)*gravity*T(:,:,1)*T(:,:,2)*Q*T(:,:,3)*T(:,:,4)*comstar(:,4)-m(5)*gravity*T(:,:,1)*T(:,:,2)*Q*T(:,:"
+      ",3)*T(:,:,4)*T(:,:,5)*comstar(:,5)-m(6)*gravity*T(:,:,1)*T(:,:,2)*Q*T(:,:,3)*T(:,:,4)*T(:,:,5)*T(:,:,6)*comstar("
+      ":,6)-m(7)*gravity*T(:,:,1)*T(:,:,2)*Q*T(:,:,3)*T(:,:,4)*T(:,:,5)*T(:,:,6)*T(:,:,7)*comstar(:,7);\n   G(4)= -m(4)"
+      "*gravity*T(:,:,1)*T(:,:,2)*T(:,:,3)*Q*T(:,:,4)*comstar(:,4)-m(5)*gravity*T(:,:,1)*T(:,:,2)*T(:,:,3)*Q*T(:,:,4)*T"
+      "(:,:,5)*comstar(:,5)-m(6)*gravity*T(:,:,1)*T(:,:,2)*T(:,:,3)*Q*T(:,:,4)*T(:,:,5)*T(:,:,6)*comstar(:,6)-m(7)*grav"
+      "ity*T(:,:,1)*T(:,:,2)*T(:,:,3)*Q*T(:,:,4)*T(:,:,5)*T(:,:,6)*T(:,:,7)*comstar(:,7);\n   G(5)= -m(5)*gravity*T(:,:"
+      ",1)*T(:,:,2)*T(:,:,3)*T(:,:,4)*Q*T(:,:,5)*comstar(:,5)-m(6)*gravity*T(:,:,1)*T(:,:,2)*T(:,:,3)*T(:,:,4)*Q*T(:,:,"
+      "5)*T(:,:,6)*comstar(:,6)-m(7)*gravity*T(:,:,1)*T(:,:,2)*T(:,:,3)*T(:,:,4)*Q*T(:,:,5)*T(:,:,6)*T(:,:,7)*comstar(:"
+      ",7);\n   G(6)= -m(6)*gravity*T(:,:,1)*T(:,:,2)*T(:,:,3)*T(:,:,4)*T(:,:,5)*Q*T(:,:,6)*comstar(:,6)-m(7)*gravity*T"
+      "(:,:,1)*T(:,:,2)*T(:,:,3)*T(:,:,4)*T(:,:,5)*Q*T(:,:,6)*T(:,:,7)*comstar(:,7);\n   G(7)= -m(7)*gravity*T(:,:,1)*T"
+      "(:,:,2)*T(:,:,3)*T(:,:,4)*T(:,:,5)*T(:,:,6)*Q*T(:,:,7)*comstar(:,7);\n    \nend \n    function T = getTransformD"
+      "H(a,d,alpha,q)\n    ct = cos(q);\n    st = sin(q);\n    cb = cos(alpha);\n    sb = sin(alpha);\n    \n    T = [ "
+      "ct, -st*cb,  st*sb, a*ct;\n          st,  ct*cb, -ct*sb, a*st;\n          0, sb, cb, d;\n          0, 0, 0, 1 ];"
+      "            \n end       \nfunction bq = bq(qd)\n \n \n \ns=20;\nbc = [2.516; 2.581; 2.038; 0.956; 0.323; 0.315;"
+      " 0.066];\nB =  [1.142; 0.946; 0.309; 0.255; 0.025; 0.039; 0.004];\n \nbq = bc.*atan(s*qd)*2/pi+B.*qd;\nend \n\nf"
+      "unction D =D(q);\nDH_a = [0 0 0.045 -0.045 0 0 0];\n    DH_d = [0 0 .55 0 0.45 0 0.061];\n    DH_alpha = [-pi/2 "
+      "pi/2 -pi/2 pi/2 -pi/2 pi/2 0];\n\n    m = [10.7676 3.87 1.8022 2.4 0.1237 0.4979886 0.07548270];\n    \n     \n "
+      "   com= zeros(3,7);\n    \n   com(:,1) = [-0.00443422;0.12189039;-0.00066489];\n    com(:,2) = [-0.00236983;0.03"
+      "105614;0.01542114 ];\n    com(:,3) = [-0.03825858;0.20750770;0.00003309];\n    com(:,4) = [0.00498512;-0.0002294"
+      "2;0.13271662 ];\n    com(:,5) = [0.00008921;0.00511217;0.00435824];\n    com(:,6) = [-0.00012262;-0.01703194;0.0"
+      "2468336];\n    com(:,7) = [-0.00007974;0.00016313;-0.00323552 ];\n     \n       \n        \n    I=zeros(3,3,7);\n"
+      "    T=zeros(4,4,7);\n     I(:,:,1) = [0.29486350,-0.00795023,-0.00009311;\n                 -0.00795023,0.113500"
+      "17,-0.00018711;\n                -0.00009311,-0.00018711,0.25065343];\n    I(:,:,2) =[0.02606840,-0.00001346,-0."
+      "00011701;\n               -0.00001346,0.01472202,0.00003659;\n              -0.00011701,0.00003659,0.01934814];\n"
+      "    I(:,:,3) = [0.13671601,-0.01680434, 0.00000510;\n               -0.01680434,0.00588354,-0.00000530;\n       "
+      "         0.00000510,-0.00000530,0.13951371];\n    I(:,:,4) = [ 0.05719268,0.00001467,0.00008193;\n              "
+      "   0.00001467,0.05716470,-0.00009417;\n                 0.00008193,-0.00009417,0.00300441] ;\n    I(:,:,5) =[0.0"
+      "0005587,0.00000026,.00000000;\n               0.00000026,0.00007817,-0.00000083;\n               0.00000000,-0.0"
+      "0000083,0.00006594];\n    I(:,:,6) = [0.00093106,0.00000148,-0.00000201;\n                0.00000148, 0.00049833"
+      ",-0.00022162;\n               -0.00000201,-0.00022162,0.00057483];\n    I(:,:,7) = [0.003167342, 0,0;       % Ap"
+      "proximate Inertia Tensor for Schunk Gripper\n                0,0.001128942,0;\n                 0,0,0.00258007;]"
+      ";  \n            \n             \n             \nfor j=1:7,\n        a = DH_a(j);\n        d = DH_d(j);\n       "
+      " alpha = DH_alpha(j);\n        T(:,:,j) = getTransformDH(a, d, alpha, q(j));\nend \n\ncomstar=zeros(4,7);\n\n   "
+      "\n    comstar(:,1) = [com(:,1);1];\n    comstar(:,2) = [com(:,2);1];\n    comstar(:,3) = [com(:,3);1];\n    coms"
+      "tar(:,4) = [com(:,4);1];\n    comstar(:,5) = [com(:,5);1];\n    comstar(:,6) = [com(:,6);1];\n    comstar(:,7) ="
+      " [com(:,7);1];\n    \n    Q=zeros(4,4);\n    \n    Q=[0,-1,0,0;\n     1,0,0,0;\n     0,0,0,0;\n     0,0,0,0];\n "
+      "  \n\n   \nU=zeros(4,4,7,7);\n   \n   U(:,:,1,1)= Q*T(:,:,1);\n   U(:,:,2,1)= Q*T(:,:,1)*T(:,:,2);\n   U(:,:,3,1"
+      ")= Q*T(:,:,1)*T(:,:,2)*T(:,:,3);\n   U(:,:,4,1)= Q*T(:,:,1)*T(:,:,2)*T(:,:,3)*T(:,:,4);\n   U(:,:,5,1)= Q*T(:,:,"
+      "1)*T(:,:,2)*T(:,:,3)*T(:,:,4)*T(:,:,5);\n   U(:,:,6,1)= Q*T(:,:,1)*T(:,:,2)*T(:,:,3)*T(:,:,4)*T(:,:,5)*T(:,:,6);"
+      "\n   U(:,:,7,1)= Q*T(:,:,1)*T(:,:,2)*T(:,:,3)*T(:,:,4)*T(:,:,5)*T(:,:,6)*T(:,:,7);\n   \n   \n   U(:,:,2,2)= T(:"
+      ",:,1)*Q*T(:,:,2);\n   U(:,:,3,2)= T(:,:,1)*Q*T(:,:,2)*T(:,:,3);\n   U(:,:,4,2)= T(:,:,1)*Q*T(:,:,2)*T(:,:,3)*T(:"
+      ",:,4);\n   U(:,:,5,2)= T(:,:,1)*Q*T(:,:,2)*T(:,:,3)*T(:,:,4)*T(:,:,5);\n   U(:,:,6,2)= T(:,:,1)*Q*T(:,:,2)*T(:,:"
+      ",3)*T(:,:,4)*T(:,:,5)*T(:,:,6);\n   U(:,:,7,2)= T(:,:,1)*Q*T(:,:,2)*T(:,:,3)*T(:,:,4)*T(:,:,5)*T(:,:,6)*T(:,:,7)"
+      ";\n   \n  \n   U(:,:,3,3)= T(:,:,1)*T(:,:,2)*Q*T(:,:,3);\n   U(:,:,4,3)= T(:,:,1)*T(:,:,2)*Q*T(:,:,3)*T(:,:,4);\n"
+      "   U(:,:,5,3)= T(:,:,1)*T(:,:,2)*Q*T(:,:,3)*T(:,:,4)*T(:,:,5);\n   U(:,:,6,3)= T(:,:,1)*T(:,:,2)*Q*T(:,:,3)*T(:,"
+      ":,4)*T(:,:,5)*T(:,:,6);\n   U(:,:,7,3)= T(:,:,1)*T(:,:,2)*Q*T(:,:,3)*T(:,:,4)*T(:,:,5)*T(:,:,6)*T(:,:,7);\n   \n"
+      "   U(:,:,4,4)= T(:,:,1)*T(:,:,2)*T(:,:,3)*Q*T(:,:,4);\n   U(:,:,5,4)= T(:,:,1)*T(:,:,2)*T(:,:,3)*Q*T(:,:,4)*T(:,"
+      ":,5);\n   U(:,:,6,4)= T(:,:,1)*T(:,:,2)*T(:,:,3)*Q*T(:,:,4)*T(:,:,5)*T(:,:,6);\n   U(:,:,7,4)= T(:,:,1)*T(:,:,2)"
+      "*T(:,:,3)*Q*T(:,:,4)*T(:,:,5)*T(:,:,6)*T(:,:,7);\n   \n   U(:,:,5,5)= T(:,:,1)*T(:,:,2)*T(:,:,3)*T(:,:,4)*Q*T(:,"
+      ":,5);\n   U(:,:,6,5)= T(:,:,1)*T(:,:,2)*T(:,:,3)*T(:,:,4)*Q*T(:,:,5)*T(:,:,6);\n   U(:,:,7,5)= T(:,:,1)*T(:,:,2)"
+      "*T(:,:,3)*T(:,:,4)*Q*T(:,:,5)*T(:,:,6)*T(:,:,7);\n   \n   U(:,:,6,6)= T(:,:,1)*T(:,:,2)*T(:,:,3)*T(:,:,4)*T(:,:,"
+      "5)*Q*T(:,:,6);\n   U(:,:,7,6)= T(:,:,1)*T(:,:,2)*T(:,:,3)*T(:,:,4)*T(:,:,5)*Q*T(:,:,6)*T(:,:,7);\n   \n   U(:,:,"
+      "7,7)= T(:,:,1)*T(:,:,2)*T(:,:,3)*T(:,:,4)*T(:,:,5)*T(:,:,6)*Q*T(:,:,7);\n   \n   \n   \n  \n   J=zeros(4,4,7);\n"
+      " \n   \n   J(:,:,1)=[0.5*(-I(1,1,1)+I(2,2,1)+I(3,3,1)), I(1,2,1), I(1,3,1), m(1)*com(1,1);\n             I(1,2,1"
+      ") ,0.5*(I(1,1,1)-I(2,2,1)+I(3,3,1)), I(2,3,1), m(1)*com(2,1);\n             I(1,3,1), I(2,3,1), 0.5*(I(1,1,1)+I("
+      "2,2,1)-I(3,3,1)), m(1)*com(3,1);\n              m(1)*com(1,1), m(1)*com(2,1), m(1)*com(3,1), m(1)];\n   \n    J("
+      ":,:,2)=[0.5*(-I(1,1,2)+I(2,2,2)+I(3,3,2)), I(1,2,2), I(1,3,2), m(2)*com(1,2);\n             I(1,2,2) ,0.5*(I(1,1"
+      ",2)-I(2,2,2)+I(3,3,2)), I(2,3,2), m(2)*com(2,2);\n             I(1,3,2), I(2,3,2), 0.5*(I(1,1,2)+I(2,2,2)-I(3,3,"
+      "2)), m(2)*com(3,2);\n              m(2)*com(1,2), m(2)*com(2,2), m(2)*com(3,2), m(2)];\n   \n          \n     J("
+      ":,:,3)=[0.5*(-I(1,1,3)+I(2,2,3)+I(3,3,3)), I(1,2,3), I(1,3,3), m(3)*com(1,3);\n             I(1,2,3) ,0.5*(I(1,1"
+      ",3)-I(2,2,3)+I(3,3,3)), I(2,3,3), m(3)*com(2,3);\n             I(1,3,3), I(2,3,3), 0.5*(I(1,1,3)+I(2,2,3)-I(3,3,"
+      "3)), m(3)*com(3,3);\n              m(3)*com(1,3), m(3)*com(2,3), m(3)*com(3,3), m(3)];      \n   \n   \n    J(:,"
+      ":,4)=[0.5*(-I(1,1,4)+I(2,2,4)+I(3,3,4)), I(1,2,4), I(1,3,4), m(4)*com(1,4);\n             I(1,2,4) ,0.5*(I(1,1,4"
+      ")-I(2,2,4)+I(3,3,4)), I(2,3,4), m(4)*com(2,4);\n             I(1,3,4), I(2,3,4), 0.5*(I(1,1,4)+I(2,2,4)-I(3,3,4)"
+      "), m(4)*com(3,4);\n              m(4)*com(1,4), m(4)*com(2,4), m(4)*com(3,4), m(4)];\n   \n   \n    J(:,:,5)=[0."
+      "5*(-I(1,1,5)+I(2,2,5)+I(3,3,5)), I(1,2,5), I(1,3,5), m(5)*com(1,5);\n             I(1,2,5) ,0.5*(I(1,1,5)-I(2,2,"
+      "5)+I(3,3,5)), I(2,3,5), m(5)*com(2,5);\n             I(1,3,5), I(2,3,5), 0.5*(I(1,1,5)+I(2,2,5)-I(3,3,5)), m(5)*"
+      "com(3,5);\n              m(5)*com(1,5), m(5)*com(2,5), m(5)*com(3,5), m(5)];\n   \n   \n    J(:,:,6)=[0.5*(-I(1,"
+      "1,6)+I(2,2,6)+I(3,3,6)), I(1,2,6), I(1,3,6), m(6)*com(1,6);\n             I(1,2,6) ,0.5*(I(1,1,6)-I(2,2,6)+I(3,3"
+      ",6)), I(2,3,6), m(6)*com(2,6);\n             I(1,3,6), I(2,3,6), 0.5*(I(1,1,6)+I(2,2,6)-I(3,3,6)), m(6)*com(3,6)"
+      ";\n              m(6)*com(1,6), m(6)*com(2,6), m(6)*com(3,6), m(6)];\n   \n   \n    J(:,:,7)=[0.5*(-I(1,1,7)+I(2"
+      ",2,7)+I(3,3,7)), I(1,2,7), I(1,3,7), m(7)*com(1,7);\n             I(1,2,7) ,0.5*(I(1,1,7)-I(2,2,7)+I(3,3,7)), I("
+      "2,3,7), m(7)*com(2,7);\n             I(1,3,7), I(2,3,7), 0.5*(I(1,1,7)+I(2,2,7)-I(3,3,7)), m(7)*com(3,7);\n     "
+      "         m(7)*com(1,7), m(7)*com(2,7), m(7)*com(3,7), m(7)];\n          \n          D=zeros(7,7);\n   \n   \n   "
+      " D(1,1)= trace(U(:,:,1,1)*J(:,:,1)*transpose(U(:,:,1,1))) + trace(U(:,:,2,1)*J(:,:,2)*transpose(U(:,:,2,1))) + t"
+      "race(U(:,:,3,1)*J(:,:,3)*transpose(U(:,:,3,1))) + trace(U(:,:,4,1)*J(:,:,4)*transpose(U(:,:,4,1))) + trace(U(:,:"
+      ",5,1)*J(:,:,5)*transpose(U(:,:,5,1))) + trace(U(:,:,6,1)*J(:,:,6)*transpose(U(:,:,6,1))) + trace(U(:,:,7,1)*J(:,"
+      ":,7)*transpose(U(:,:,7,1))) ;\n    D(1,2)= trace(U(:,:,2,2)*J(:,:,2)*transpose(U(:,:,2,1))) + trace(U(:,:,3,2)*J"
+      "(:,:,3)*transpose(U(:,:,3,1))) + trace(U(:,:,4,2)*J(:,:,4)*transpose(U(:,:,4,1))) +trace(U(:,:,5,2)*J(:,:,5)*tra"
+      "nspose(U(:,:,5,1))) + trace(U(:,:,6,2)*J(:,:,6)*transpose(U(:,:,6,1))) + trace(U(:,:,7,2)*J(:,:,7)*transpose(U(:"
+      ",:,7,1))); \n    D(1,3)= trace(U(:,:,3,3)*J(:,:,3)*transpose(U(:,:,3,1)))+ trace(U(:,:,4,3)*J(:,:,4)*transpose(U"
+      "(:,:,4,1)))+ trace(U(:,:,5,3)*J(:,:,5)*transpose(U(:,:,5,1)))+ trace(U(:,:,6,3)*J(:,:,6)*transpose(U(:,:,6,1)))+"
+      " trace(U(:,:,7,3)*J(:,:,7)*transpose(U(:,:,7,1))); \n    D(1,4)= trace(U(:,:,4,4)*J(:,:,4)*transpose(U(:,:,4,1))"
+      ")+ trace(U(:,:,5,4)*J(:,:,5)*transpose(U(:,:,5,1)))+ trace(U(:,:,6,4)*J(:,:,6)*transpose(U(:,:,6,1)))+ trace(U(:"
+      ",:,7,4)*J(:,:,7)*transpose(U(:,:,7,1)));\n    D(1,5)= trace(U(:,:,5,5)*J(:,:,5)*transpose(U(:,:,5,1)))+ trace(U("
+      ":,:,6,5)*J(:,:,6)*transpose(U(:,:,6,1)))+ trace(U(:,:,7,5)*J(:,:,7)*transpose(U(:,:,7,1)));\n    D(1,6)= trace(U"
+      "(:,:,6,6)*J(:,:,6)*transpose(U(:,:,6,1)))+ trace(U(:,:,7,6)*J(:,:,7)*transpose(U(:,:,7,1)));\n    D(1,7)= trace("
+      "U(:,:,7,7)*J(:,:,7)*transpose(U(:,:,7,1)));\n    \n    D(2,1)= trace(U(:,:,2,1)*J(:,:,2)*transpose(U(:,:,2,2)))+"
+      " trace(U(:,:,3,1)*J(:,:,3)*transpose(U(:,:,3,2)))+ trace(U(:,:,4,1)*J(:,:,4)*transpose(U(:,:,4,2)))+ trace(U(:,:"
+      ",5,1)*J(:,:,5)*transpose(U(:,:,5,2)))+ trace(U(:,:,6,1)*J(:,:,6)*transpose(U(:,:,6,2)))+ trace(U(:,:,7,1)*J(:,:,"
+      "7)*transpose(U(:,:,7,2)));\n    D(2,2)= trace(U(:,:,2,2)*J(:,:,2)*transpose(U(:,:,2,2)))+ trace(U(:,:,3,2)*J(:,:"
+      ",3)*transpose(U(:,:,3,2)))+ trace(U(:,:,4,2)*J(:,:,4)*transpose(U(:,:,4,2)))+ trace(U(:,:,5,2)*J(:,:,5)*transpos"
+      "e(U(:,:,5,2)))+ trace(U(:,:,6,2)*J(:,:,6)*transpose(U(:,:,6,2)))+ trace(U(:,:,7,2)*J(:,:,7)*transpose(U(:,:,7,2)"
+      "));\n    D(2,3)= trace(U(:,:,3,3)*J(:,:,3)*transpose(U(:,:,3,2)))+ trace(U(:,:,4,3)*J(:,:,4)*transpose(U(:,:,4,2"
+      ")))+ trace(U(:,:,5,3)*J(:,:,5)*transpose(U(:,:,5,2)))+ trace(U(:,:,6,3)*J(:,:,6)*transpose(U(:,:,6,2)))+ trace(U"
+      "(:,:,7,3)*J(:,:,7)*transpose(U(:,:,7,2))); \n    D(2,4)= trace(U(:,:,4,4)*J(:,:,4)*transpose(U(:,:,4,2)))+ trace"
+      "(U(:,:,5,4)*J(:,:,5)*transpose(U(:,:,5,2)))+ trace(U(:,:,6,4)*J(:,:,6)*transpose(U(:,:,6,2)))+ trace(U(:,:,7,4)*"
+      "J(:,:,7)*transpose(U(:,:,7,2))); \n    D(2,5)= trace(U(:,:,5,5)*J(:,:,5)*transpose(U(:,:,5,2)))+ trace(U(:,:,6,5"
+      ")*J(:,:,6)*transpose(U(:,:,6,2)))+ trace(U(:,:,7,5)*J(:,:,7)*transpose(U(:,:,7,2)));\n    D(2,6)= trace(U(:,:,6,"
+      "6)*J(:,:,6)*transpose(U(:,:,6,2)))+ trace(U(:,:,7,6)*J(:,:,7)*transpose(U(:,:,7,2))); \n    D(2,7)= trace(U(:,:,"
+      "7,7)*J(:,:,7)*transpose(U(:,:,7,2)));\n  \n    D(3,1)= trace(U(:,:,3,1)*J(:,:,3)*transpose(U(:,:,3,3)))+ trace(U"
+      "(:,:,4,1)*J(:,:,4)*transpose(U(:,:,4,3)))+ trace(U(:,:,5,1)*J(:,:,5)*transpose(U(:,:,5,3)))+ trace(U(:,:,6,1)*J("
+      ":,:,6)*transpose(U(:,:,6,3)))+ trace(U(:,:,7,1)*J(:,:,7)*transpose(U(:,:,7,3)));\n    D(3,2)= trace(U(:,:,3,2)*J"
+      "(:,:,3)*transpose(U(:,:,3,3)))+ trace(U(:,:,4,2)*J(:,:,4)*transpose(U(:,:,4,3)))+ trace(U(:,:,5,2)*J(:,:,5)*tran"
+      "spose(U(:,:,5,3)))+ trace(U(:,:,6,2)*J(:,:,6)*transpose(U(:,:,6,3)))+ trace(U(:,:,7,2)*J(:,:,7)*transpose(U(:,:,"
+      "7,3)));\n    D(3,3)= trace(U(:,:,3,3)*J(:,:,3)*transpose(U(:,:,3,3)))+ trace(U(:,:,4,3)*J(:,:,4)*transpose(U(:,:"
+      ",4,3)))+ trace(U(:,:,5,3)*J(:,:,5)*transpose(U(:,:,5,3)))+ trace(U(:,:,6,3)*J(:,:,6)*transpose(U(:,:,6,3)))+ tra"
+      "ce(U(:,:,7,3)*J(:,:,7)*transpose(U(:,:,7,3)));\n    D(3,4)= trace(U(:,:,4,4)*J(:,:,4)*transpose(U(:,:,4,3)))+ tr"
+      "ace(U(:,:,5,4)*J(:,:,5)*transpose(U(:,:,5,3)))+ trace(U(:,:,6,4)*J(:,:,6)*transpose(U(:,:,6,3)))+ trace(U(:,:,7,"
+      "4)*J(:,:,7)*transpose(U(:,:,7,3)));\n    D(3,5)= trace(U(:,:,5,5)*J(:,:,5)*transpose(U(:,:,5,3)))+ trace(U(:,:,6"
+      ",5)*J(:,:,6)*transpose(U(:,:,6,3)))+ trace(U(:,:,7,5)*J(:,:,7)*transpose(U(:,:,7,3)));\n    D(3,6)= trace(U(:,:,"
+      "6,6)*J(:,:,6)*transpose(U(:,:,6,3)))+ trace(U(:,:,7,6)*J(:,:,7)*transpose(U(:,:,7,3)));\n    D(3,7)= trace(U(:,:"
+      ",7,7)*J(:,:,7)*transpose(U(:,:,7,3)));\n     \n     \n    D(4,1)= trace(U(:,:,4,1)*J(:,:,4)*transpose(U(:,:,4,4)"
+      "))+ trace(U(:,:,5,1)*J(:,:,5)*transpose(U(:,:,5,4)))+ trace(U(:,:,6,1)*J(:,:,6)*transpose(U(:,:,6,4)))+ trace(U("
+      ":,:,7,1)*J(:,:,7)*transpose(U(:,:,7,4))); \n    D(4,2)= trace(U(:,:,4,2)*J(:,:,4)*transpose(U(:,:,4,4)))+ trace("
+      "U(:,:,5,2)*J(:,:,5)*transpose(U(:,:,5,4)))+ trace(U(:,:,6,2)*J(:,:,6)*transpose(U(:,:,6,4)))+ trace(U(:,:,7,2)*J"
+      "(:,:,7)*transpose(U(:,:,7,4))); \n    D(4,3)= trace(U(:,:,4,3)*J(:,:,4)*transpose(U(:,:,4,4)))+ trace(U(:,:,5,3)"
+      "*J(:,:,5)*transpose(U(:,:,5,4)))+ trace(U(:,:,6,3)*J(:,:,6)*transpose(U(:,:,6,4)))+ trace(U(:,:,7,3)*J(:,:,7)*tr"
+      "anspose(U(:,:,7,4)));\n    D(4,4)= trace(U(:,:,4,4)*J(:,:,4)*transpose(U(:,:,4,4)))+ trace(U(:,:,5,4)*J(:,:,5)*t"
+      "ranspose(U(:,:,5,4)))+ trace(U(:,:,6,4)*J(:,:,6)*transpose(U(:,:,6,4)))+ trace(U(:,:,7,4)*J(:,:,7)*transpose(U(:"
+      ",:,7,4)));\n    D(4,5)= trace(U(:,:,5,5)*J(:,:,5)*transpose(U(:,:,5,4)))+ trace(U(:,:,6,5)*J(:,:,6)*transpose(U("
+      ":,:,6,4)))+ trace(U(:,:,7,5)*J(:,:,7)*transpose(U(:,:,7,4)));\n    D(4,6)= trace(U(:,:,6,6)*J(:,:,6)*transpose(U"
+      "(:,:,6,4)))+ trace(U(:,:,7,6)*J(:,:,7)*transpose(U(:,:,7,4))); \n    D(4,7)= trace(U(:,:,7,7)*J(:,:,7)*transpose"
+      "(U(:,:,7,4)));\n    \n    D(5,1)= trace(U(:,:,5,1)*J(:,:,5)*transpose(U(:,:,5,5)))+ trace(U(:,:,6,1)*J(:,:,6)*tr"
+      "anspose(U(:,:,6,5)))+ trace(U(:,:,7,1)*J(:,:,7)*transpose(U(:,:,7,5)));\n    D(5,2)= trace(U(:,:,5,2)*J(:,:,5)*t"
+      "ranspose(U(:,:,5,5)))+ trace(U(:,:,6,2)*J(:,:,6)*transpose(U(:,:,6,5)))+ trace(U(:,:,7,2)*J(:,:,7)*transpose(U(:"
+      ",:,7,5)));\n    D(5,3)= trace(U(:,:,5,3)*J(:,:,5)*transpose(U(:,:,5,5)))+ trace(U(:,:,6,3)*J(:,:,6)*transpose(U("
+      ":,:,6,5)))+ trace(U(:,:,7,3)*J(:,:,7)*transpose(U(:,:,7,5))); \n    D(5,4)= trace(U(:,:,5,4)*J(:,:,5)*transpose("
+      "U(:,:,5,5)))+ trace(U(:,:,6,4)*J(:,:,6)*transpose(U(:,:,6,5)))+ trace(U(:,:,7,4)*J(:,:,7)*transpose(U(:,:,7,5)))"
+      "; \n    D(5,5)= trace(U(:,:,5,5)*J(:,:,5)*transpose(U(:,:,5,5)))+ trace(U(:,:,6,5)*J(:,:,6)*transpose(U(:,:,6,5)"
+      "))+ trace(U(:,:,7,5)*J(:,:,7)*transpose(U(:,:,7,5)));\n    D(5,6)= trace(U(:,:,6,6)*J(:,:,6)*transpose(U(:,:,6,5"
+      ")))+ trace(U(:,:,7,6)*J(:,:,7)*transpose(U(:,:,7,5))); \n    D(5,7)= trace(U(:,:,7,7)*J(:,:,7)*transpose(U(:,:,7"
+      ",5)));\n    \n    D(6,1)= trace(U(:,:,6,1)*J(:,:,6)*transpose(U(:,:,6,6)))+ trace(U(:,:,7,1)*J(:,:,7)*transpose("
+      "U(:,:,7,6)));\n    D(6,2)= trace(U(:,:,6,2)*J(:,:,6)*transpose(U(:,:,6,6)))+ trace(U(:,:,7,2)*J(:,:,7)*transpose"
+      "(U(:,:,7,6)));\n    D(6,3)= trace(U(:,:,6,3)*J(:,:,6)*transpose(U(:,:,6,6)))+ trace(U(:,:,7,3)*J(:,:,7)*transpos"
+      "e(U(:,:,7,6))); \n    D(6,4)= trace(U(:,:,6,4)*J(:,:,6)*transpose(U(:,:,6,6)))+ trace(U(:,:,7,4)*J(:,:,7)*transp"
+      "ose(U(:,:,7,6))); \n    D(6,5)= trace(U(:,:,6,5)*J(:,:,6)*transpose(U(:,:,6,6)))+ trace(U(:,:,7,5)*J(:,:,7)*tran"
+      "spose(U(:,:,7,6))); \n    D(6,6)= trace(U(:,:,6,6)*J(:,:,6)*transpose(U(:,:,6,6)))+ trace(U(:,:,7,6)*J(:,:,7)*tr"
+      "anspose(U(:,:,7,6))); \n    D(6,7)= trace(U(:,:,7,7)*J(:,:,7)*transpose(U(:,:,7,6)));\n    \n    D(7,1)= trace(U"
+      "(:,:,7,1)*J(:,:,7)*transpose(U(:,:,7,7)));\n    D(7,2)= trace(U(:,:,7,2)*J(:,:,7)*transpose(U(:,:,7,7)));\n    D"
+      "(7,3)= trace(U(:,:,7,3)*J(:,:,7)*transpose(U(:,:,7,7)));\n    D(7,4)= trace(U(:,:,7,4)*J(:,:,7)*transpose(U(:,:,"
+      "7,7)));\n    D(7,5)= trace(U(:,:,7,5)*J(:,:,7)*transpose(U(:,:,7,7)));\n    D(7,6)= trace(U(:,:,7,6)*J(:,:,7)*tr"
+      "anspose(U(:,:,7,7)));\n    D(7,7)= trace(U(:,:,7,7)*J(:,:,7)*transpose(U(:,:,7,7)));\nend \n"
+      editorLayout	      "100 M4x1[10 5 700 500]"
+    }
+  }
+  data {
+    id			    4
+    ssIdNumber		    4
+    name		    "u"
+    linkNode		    [2 0 5]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+      }
+      complexity	      SF_COMPLEX_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    5
+    ssIdNumber		    5
+    name		    "x_2"
+    linkNode		    [2 4 6]
+    scope		    OUTPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_NO
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    6
+    ssIdNumber		    8
+    name		    "x_1"
+    linkNode		    [2 5 7]
+    scope		    OUTPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_NO
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    7
+    ssIdNumber		    9
+    name		    "x1"
+    linkNode		    [2 6 8]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  data {
+    id			    8
+    ssIdNumber		    10
+    name		    "x2"
+    linkNode		    [2 7 0]
+    scope		    INPUT_DATA
+    machine		    1
+    props {
+      array {
+	size			"-1"
+      }
+      type {
+	method			SF_INHERITED_TYPE
+	primitive		SF_DOUBLE_TYPE
+	isSigned		1
+	wordLength		"16"
+      }
+      complexity	      SF_COMPLEX_INHERITED
+      frame		      SF_FRAME_INHERITED
+    }
+    dataType		    "Inherit: Same as Simulink"
+  }
+  junction {
+    id			    9
+    position		    [23.5747 49.5747 7]
+    chart		    2
+    linkNode		    [2 0 0]
+    subviewer		    2
+    ssIdNumber		    3
+    type		    CONNECTIVE_JUNCTION
+  }
+  transition {
+    id			    10
+    labelString		    "{eML_blk_kernel();}"
+    labelPosition	    [28.125 13.875 102.544 14.964]
+    fontSize		    12
+    src {
+      intersection	      [0 0 1 0 23.5747 14.625 0 0]
+    }
+    dst {
+      id		      9
+      intersection	      [1 0 -1 0 23.5747 42.5747 0 0]
+    }
+    midPoint		    [23.5747 24.9468]
+    chart		    2
+    linkNode		    [2 0 0]
+    dataLimits		    [21.175 25.975 14.625 42.575]
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    2
+  }
+  instance {
+    id			    11
+    name		    "MATLAB Function"
+    machine		    1
+    chart		    2
+  }
+  target {
+    id			    12
+    name		    "sfun"
+    description		    "Default Simulink S-Function Target."
+    machine		    1
+    linkNode		    [1 0 0]
+  }
+}
