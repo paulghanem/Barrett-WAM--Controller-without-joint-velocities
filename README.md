@@ -1,1 +1,2 @@
 # Barrett_WAM
+This is the companion code for the dynamics model learning method reported in the paper Probabilistic Recurrent State-Space Models by Andreas Doerr et al., ICML 2018. The paper can be found here https://arxiv.org/abs/1801.10395. The code allows the users to reproduce the PR-SSM results reported in the benchmark and large-scale experiments. Please cite the above paper when reporting, reproducing or extending the results.
