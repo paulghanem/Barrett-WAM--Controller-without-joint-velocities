@@ -7,5 +7,6 @@ The code depends on MATLAB.
 # Reproducing results
 The experiments reported in the publication can be run by executing 
 
-python benchmarks/run_real_world_tasks/run_benchmark_experiments.py
+Barrett_WAM/wam_controller/Controllers/Backstepping
+/stochastic_backstepping.m and 
 python benchmarks/run_real_world_tasks/run_large_scale_experiment.py
